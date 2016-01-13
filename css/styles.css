@@ -1,0 +1,14 @@
+form {
+  padding: 50px;
+  background-color: purple;
+  font-family:monospace;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+}
+
+.confirmation {
+  display: none;
+}

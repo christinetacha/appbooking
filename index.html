@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Appointment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+    <form>
+      <div class="form-group">
+        <label for="inputName1">Name</label>
+        <input type="name" class="form-control" id="inputName1" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="inputDate1">Date for Appointment</label>
+        <input type="date" class="form-control" id="inputDate1" placeholder="Date">
+      </div>
+      <div class="form-group">
+        <label for="inputStartTime1">Start Time</label>
+        <input type="startTime" class="form-control" id="inputStartTime1" placeholder="Start Time">
+      </div>
+      <div class="form-group">
+        <label for="inputEndTime1">End Time</label>
+        <input type="endTime" class="form-control" id="inputEndTime1" placeholder="End Time">
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+
+    </form>
+
+    <div class="confirmation">
+      <p>Thank you <span id="clientName"></span> for booking an appointment with me. I have you down for <span id="clientDate"></span> at <span id="clientStartTime"></span>. You can expect your appointment to end at <span id="clientEndTime"></span>.</p>
+    </div>
+
+    </div>
+  </body>
+</html>
